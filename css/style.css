@@ -2,4 +2,21 @@
 
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    color: #130d02;
+    background-color: #eee2cb;
+}
+
+header {
+    border: 1px solid red;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    height: 10vh;
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
 }
