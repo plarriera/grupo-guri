@@ -18,6 +18,10 @@
     --violetaoscuro: #210031;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
     color: var(--negro);
