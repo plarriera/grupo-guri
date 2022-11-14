@@ -96,7 +96,7 @@ h2 {
     padding: 1rem;
 }
 
-.mision, .programas, .aliados {
+.mision, .programas, .aliados, footer {
     text-align: center;
     padding: 2rem 1rem;
 }
@@ -192,4 +192,24 @@ option {
     margin: auto;
     height: 10vh;
     border-radius: 1em;
+}
+
+footer {
+    background-color: var(--cafe);
+    text-align: center;
+}
+
+.footerimg {
+    display: block;
+    height: 15vh;
+    margin: auto;
+}
+
+.rrss {
+    padding-top: 1rem;
+}
+
+.rrss img {
+    width: 10vw;
+    margin: 0.5em;
 }
