@@ -1,14 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;900&display=swap');
 
+:root {
+    --crema: #eee2cb;
+    --negro: #130d02;
+    --rojo: #ec5b56;
+    --naranja: #f08c34;
+    --amarillo: #f8cf6c;
+    --verde: #48c597;
+    --azul: #3983dc;
+    --violeta: #b65edf;
+    --rojooscuro: #410200;
+    --naranjaoscuro: #3d1d00;
+    --amarillooscuro: #422f00;
+    --verdeoscuro: #002014;
+    --azuloscuro: #000914;
+    --violetaoscuro: #210031;
+}
+
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
-    color: #130d02;
-    background-color: #eee2cb;
+    color: var(--negro);
+    background-color: var(--crema);
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 header {
-    border: 1px solid red;
-    position: absolute;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(238,226,203,1) 100%);
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -19,4 +41,40 @@ header {
     display: block;
     margin: auto;
     padding: 0.5rem;
+    top: 0;
+}
+
+.gurises {
+    background-image: url(../images/bloques.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    text-transform: lowercase;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 100%;
+    margin: 1rem auto;
+    color: var(--azul);
+    text-shadow: 3px 3px 1px var(--azuloscuro);
+}
+
+.gurises a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: var(--rojooscuro);
+    background-color: var(--rojo);
+    border-radius: 1em;
+    padding: 0 0.5em;
+}
+
+.gurises-inside {
+    position: absolute;
+    bottom: 2rem;
+    text-align: center;
+    width: 100%;
 }
