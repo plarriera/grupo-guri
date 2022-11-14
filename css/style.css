@@ -96,7 +96,7 @@ h2 {
     padding: 1rem;
 }
 
-.mision, .programas{
+.mision, .programas, .aliados {
     text-align: center;
     padding: 2rem 1rem;
 }
@@ -131,4 +131,10 @@ h2 {
 
 .programas h3 {
     margin-top: 0;
+}
+
+.aliados img {
+    width: 45vw;
+    display: block;
+    margin: 1.5rem auto;
 }
