@@ -63,6 +63,10 @@ h1 {
     text-shadow: 3px 3px 1px var(--azuloscuro);
 }
 
+h2 {
+    font-weight: 900;
+}
+
 .gurises a {
     text-decoration: none;
     font-weight: 700;
@@ -89,4 +93,29 @@ h1 {
     background-color: var(--crema);
     border-radius: 1rem;
     padding: 1rem;
+}
+
+.mision {
+    padding: 2rem 1rem;
+}
+
+.mision h2, .mision h3, .mision p {
+    text-align: center;
+}
+
+.hl {
+    background: linear-gradient(120deg, var(--amarillo) 0%, var(--amarillo) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-position: 0 60%;
+}
+
+.mision img {
+    height: 20vh;
+    display: block;
+    margin: auto;
+}
+
+.mision p {
+    margin-bottom: 4rem;
 }
