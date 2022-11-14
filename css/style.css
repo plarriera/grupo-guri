@@ -5,22 +5,13 @@
     --cafe: #d6c39f;
     --negro: #130d02;
     --rojo: #ec5b56;
-    --naranja: #f08c34;
     --amarillo: #f8cf6c;
-    --verde: #48c597;
     --azul: #3983dc;
-    --violeta: #b65edf;
     --rojooscuro: #410200;
-    --naranjaoscuro: #3d1d00;
-    --amarillooscuro: #422f00;
-    --verdeoscuro: #002014;
     --azuloscuro: #000914;
-    --violetaoscuro: #210031;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
@@ -29,9 +20,7 @@ body {
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-}
+img { max-width: 100%; }
 
 header {
     background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(238,226,203,1) 100%);
@@ -68,9 +57,7 @@ h1 {
     text-shadow: 3px 3px 1px var(--azuloscuro);
 }
 
-h2 {
-    font-weight: 900;
-}
+h2 { font-weight: 900; }
 
 .gurises a {
     text-decoration: none;
@@ -121,9 +108,7 @@ h2 {
     margin: auto;
 }
 
-.mision p {
-    margin-bottom: 4rem;
-}
+.mision p { margin-bottom: 4rem; }
 
 .programas div {
     background-color: var(--cafe);
@@ -132,13 +117,9 @@ h2 {
     margin: 1rem auto;
 }
 
-.programas-individual {
-    padding: 1em;
-}
+.programas-individual { padding: 1em; }
 
-.programas h3 {
-    margin-top: 0;
-}
+.programas h3 { margin-top: 0; }
 
 .aliados img {
     width: 45vw;
@@ -146,9 +127,7 @@ h2 {
     margin: 1.5rem auto;
 }
 
-.colaborar {
-    padding: 2rem 1rem;
-}
+.colaborar { padding: 2rem 1rem; }
 
 .colaborar form {
     border: 2px solid var(--cafe);
@@ -156,9 +135,7 @@ h2 {
     border-radius: 1em;
 }
 
-.colaborar h2, .colaborar p {
-    text-align: center;
-}
+.colaborar h2, .colaborar p { text-align: center; }
 
 select, textarea, input {
     width: 100%;
@@ -212,9 +189,7 @@ footer {
     margin: auto;
 }
 
-.rrss {
-    padding-top: 1rem;
-}
+.rrss { padding-top: 1rem; }
 
 .rrss img {
     width: 10vw;
@@ -222,9 +197,7 @@ footer {
 }
 
 @media (min-width: 800px) {
-    .conocenos {
-        height: 100vh;
-    }
+    .conocenos { height: 100vh; }
 
     .conocenos-inside {
         width: 40vw;
@@ -239,18 +212,14 @@ footer {
         margin: auto;
     }
 
-    .mision-inside, .aliados, .footer-inside {
-        width: 60vw;
-    }
+    .mision-inside, .aliados, .footer-inside { width: 60vw; }
 
     .mision-inside div {
         flex: 1 1 0px;
         padding: 1em;
     }
 
-    .programas-inside div {
-        margin: 1em;
-    }
+    .programas-inside div { margin: 1em; }
 
     .aliados img {
         width: 10vw;
@@ -271,17 +240,9 @@ footer {
         ;
     }
 
-    #ft-logo {
-        grid-area: logo
-    }
-    #ft-rrss {
-        grid-area: rrss
-    }
-    #ft-creditos {
-        grid-area: creditos
-    }
+    #ft-logo { grid-area: logo }
+    #ft-rrss { grid-area: rrss }
+    #ft-creditos { grid-area: creditos }
 
-    .rrss img {
-        width: 3vw;
-    }
+    .rrss img { width: 3vw; }
 }
