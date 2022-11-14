@@ -34,6 +34,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 .header {
@@ -77,4 +78,15 @@ h1 {
     bottom: 2rem;
     text-align: center;
     width: 100%;
+}
+
+.conocenos {
+    background-image: url(../images/merienda.jpg);
+    padding: 2rem 1rem;
+}
+
+.conocenos-inside {
+    background-color: var(--crema);
+    border-radius: 1rem;
+    padding: 1rem;
 }
