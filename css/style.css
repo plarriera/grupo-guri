@@ -226,13 +226,13 @@ footer {
         left: 10rem;
     }
 
-    .mision-inside, .programas-inside {
+    .mision-inside, .programas-inside, .aliados {
         display: flex;
         flex-direction: row;
         margin: auto;
     }
 
-    .mision-inside {
+    .mision-inside, .aliados, .footer-inside {
         width: 60vw;
     }
 
@@ -245,4 +245,36 @@ footer {
         margin: 1em;
     }
 
+    .aliados img {
+        width: 10vw;
+        align-self: center;
+    }
+    
+    form {
+        width: 40vw;
+        margin: auto;
+    }
+
+    .footer-inside {
+        margin: auto;
+        display: grid;
+        grid-template-areas: 
+        'logo rrss'
+        'logo creditos'
+        ;
+    }
+
+    #ft-logo {
+        grid-area: logo
+    }
+    #ft-rrss {
+        grid-area: rrss
+    }
+    #ft-creditos {
+        grid-area: creditos
+    }
+
+    .rrss img {
+        width: 3vw;
+    }
 }
