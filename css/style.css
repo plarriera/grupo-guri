@@ -138,3 +138,58 @@ h2 {
     display: block;
     margin: 1.5rem auto;
 }
+
+.colaborar {
+    padding: 2rem 1rem;
+}
+
+.colaborar form {
+    border: 2px solid var(--cafe);
+    padding: 1rem;
+    border-radius: 1em;
+}
+
+.colaborar h2, .colaborar p {
+    text-align: center;
+}
+
+select, textarea, input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    border: none;
+    background-color: var(--cafe);
+    display: block;
+    margin-bottom: 1em;
+}
+
+option {
+    -moz-white-space: pre-wrap;
+    -o-white-space: pre-wrap;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+.colaborar button {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: var(--rojooscuro);
+    background-color: var(--rojo);
+    border-radius: 1em;
+    padding: 0 0.5em;
+    border: none;
+    margin: 1em auto 0 auto;
+    display: block;
+}
+
+.colaborar img {
+    display: block;
+    margin: auto;
+    height: 10vh;
+    border-radius: 1em;
+}
