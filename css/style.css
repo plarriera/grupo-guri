@@ -125,7 +125,7 @@ h2 {
     margin: 1rem auto;
 }
 
-.programas-inside {
+.programas-individual {
     padding: 1em;
 }
 
@@ -212,4 +212,37 @@ footer {
 .rrss img {
     width: 10vw;
     margin: 0.5em;
+}
+
+@media (min-width: 800px) {
+    .conocenos {
+        height: 100vh;
+    }
+
+    .conocenos-inside {
+        width: 40vw;
+        position: relative;
+        top: 10rem;
+        left: 10rem;
+    }
+
+    .mision-inside, .programas-inside {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .mision-inside {
+        width: 60vw;
+    }
+
+    .mision-inside div {
+        flex: 1 1 0px;
+        padding: 1em;
+    }
+
+    .programas-inside div {
+        margin: 1em;
+    }
+
 }
