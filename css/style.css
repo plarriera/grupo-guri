@@ -2,6 +2,7 @@
 
 :root {
     --crema: #eee2cb;
+    --cafe: #d6c39f;
     --negro: #130d02;
     --rojo: #ec5b56;
     --naranja: #f08c34;
@@ -95,12 +96,9 @@ h2 {
     padding: 1rem;
 }
 
-.mision {
-    padding: 2rem 1rem;
-}
-
-.mision h2, .mision h3, .mision p {
+.mision, .programas{
     text-align: center;
+    padding: 2rem 1rem;
 }
 
 .hl {
@@ -118,4 +116,19 @@ h2 {
 
 .mision p {
     margin-bottom: 4rem;
+}
+
+.programas div {
+    background-color: var(--cafe);
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 1rem auto;
+}
+
+.programas-inside {
+    padding: 1em;
+}
+
+.programas h3 {
+    margin-top: 0;
 }
