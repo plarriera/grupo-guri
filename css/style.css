@@ -51,7 +51,7 @@ header {
 }
 
 .gurises {
-    background-image: url(../images/bloques.jpg);
+    background-image: url(../images/manualidades.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -90,7 +90,10 @@ h2 {
 }
 
 .conocenos {
-    background-image: url(../images/merienda.jpg);
+    background-image: url(../images/juego.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 2rem 1rem;
 }
 
@@ -226,7 +229,7 @@ footer {
     .conocenos-inside {
         width: 40vw;
         position: relative;
-        top: 10rem;
+        top: 15rem;
         left: 10rem;
     }
 
